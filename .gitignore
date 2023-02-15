@@ -1,18 +1,33 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Compiled binaries or executables
+*.exe
+*.dll
+*.so
+*.dylib
 
-# Other files and folders
-.settings/
+# Dependency or package directories
+node_modules/
+vendor/
+packages/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Log files
+*.log
+
+# Compiled code or build output
+build/
+dist/
+out/
+target/
+bin/
+obj/
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+Thumbs.db
