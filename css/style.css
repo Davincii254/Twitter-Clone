@@ -37,3 +37,26 @@ a {
     padding: 20px;
     border-bottom: 2px solid #2C2F33;
 }
+
+.prof-pic-and-buttons-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.prof-pic {
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    margin: -57px 0;
+}
+
+.prof-pic img {
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+    inset: 0;
+}
