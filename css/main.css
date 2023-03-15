@@ -1,3 +1,8 @@
+body {
+	color:  #121419;
+	background-color: #fff;
+}
+
 .navbar {
 	display: flex;
 	align-items: center;
@@ -16,4 +21,19 @@
 }
 .nav-link {
 	text-transform: uppercase;
+}
+
+.active {
+	position: absolute;
+	bottom: -1rem;
+	height: 2px;
+	width: 10rem;
+	background-color: #fff;
+	transition: transform 0.25s;
+}
+.nav-item:nth-child(2):hover ~ .active {
+	transform: translateX(10rem);
+}
+.nav-item:nth-child(3):hover ~ .active {
+	transform: translateX(20rem);
 }
