@@ -4,15 +4,19 @@
     box-sizing: border-box;
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
-    color: #FFFFFF;
+    
 }
 
 body {
-    font-size: 14px;
+	color: #fff;
+	background-color: #121419;
 }
 
+html {
+	font-size: 62.5%;
+}
 a {
-    color: #5cb2e4;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -186,23 +190,9 @@ a {
 	padding: 0;
 	box-sizing: border-box;
 }
-html {
-	font-size: 62.5%;
-}
-body {
-	font-family: 'Poppins', sans-serif;
-	font-size: 1.6rem;
-	color: #fff;
-	background-color: #121419;
-}
-a {
-	text-decoration: none;
-	color: inherit;
-}
+
 /* General styles end*/
-header {
-	background-color: #1a1d24;
-}
+
 .container {
 	max-width: 98rem;
 	margin-inline: auto;
