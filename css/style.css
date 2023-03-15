@@ -6,3 +6,18 @@
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
 }
+
+body {
+    font-size: 14px;
+}
+
+a {
+    color: #5cb2e4;
+    text-decoration: none;
+}
+
+.page {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+}
