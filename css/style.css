@@ -60,3 +60,23 @@ a {
     cursor: pointer;
     inset: 0;
 }
+
+.buttons {
+    display: flex;
+    font-size: 10.5px;
+}
+
+.button {
+    cursor: pointer;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+
+
+
+.edit {
+    background-color: #0b2a89;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 7px;
+}
