@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone - Final</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- sidebar starts -->
+    <div class="sidebar">
+      <i class="fab fa-twitter"></i>
+      <div class="sidebarOption active">
+        <span class="material-icons"> home </span>
+        <h2>Home</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> search </span>
+        <h2>Explore</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> notifications_none </span>
+        <h2>Notifications</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> mail_outline </span>
+        <h2>Messages</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> bookmark_border </span>
+        <h2>Bookmarks</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> list_alt </span>
+        <h2>Lists</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"><a href="p.html"></a> perm_identity </span>
+        <h2>Profile</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar__tweet">Tweet</button>
+    </div>
+    <!-- sidebar ends -->
+
+    <!-- feed starts -->
+
+    <div class="feed">
+    <div class="feed_header">
+        <h2> Username</h2>
+        <p> 0 tweets</p>
+    </div><br>
+        <div class="profile-top-container">
+            <div class="header-photo">
+                <img src="images/pt.jpg" alt="Header">
+            </div>
+
+<!-- Profile icon -->
+            <div class="profile">
+                <div class="prof-pic-and-buttons-row">
+                    <div class="prof-pic">
+                        <img src="images/Novotel.jpg" alt="Profile Picture">
+                    </div>
+                    <!-- Edit profile button -->
+                    <div class="buttons">
+                        <div class="button edit">
+                            Edit Profile
+                        </div>  
+                    </div>
+                </div>
+                <!-- Username & bio info -->
+                <div class="username">
+                    <span>Username</span>
+                </div>
+                <div class="hashtagNumber">@username</div>
+                <div class="bio">
+                    <span>Live, love, laugh.</span>
+                </div>
+                
+                <!-- Location & calendar -->
+                <div class="location-link-bday-joined">
+                    <div class="location">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <span>Kenya</span>
+                    </div>
+                    
+                    <div class="date-joined">
+                        <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                        <span>Joined March 2013</span>
+                    </div>
+                </div>
+                
+                <!-- Following/followers -->
+                <div class="following-follower">
+                    <div>
+                        <span class="follow-number">100</span>
+                        <span class="follow-text">Following</span>
+                    </div>
+                    <div>
+                        <span class="follow-number">220</span>
+                        <span class="follow-text">Followers</span>
+                    </div>
+                </div>
+            </div>
+
+<!-- Navbar -->
+        <nav class="navbar-container">
+             <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Tweets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Replies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Likes</a>
+                    </li>
+                    <div class="active"></div>
+                </ul>
+        </nav>
+   
+</body>
+</html>
