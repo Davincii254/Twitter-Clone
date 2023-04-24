@@ -9,35 +9,35 @@ body {
   --twitter-background: #e6ecf0;
 }
 
-.sidebarOption {
+.sideleft {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-.sidebarOption .material-icons,
+.sideleft .material-icons,
 .fa-twitter {
   padding: 20px;
 }
 
-.sidebarOption h2 {
+.sideleft h2 {
   font-weight: 800;
   font-size: 20px;
   margin-right: 20px;
 }
 
-.sidebarOption:hover {
+.sideleft:hover {
   background-color: var(--twitter-background);
   border-radius: 30px;
   color: var(--twitter-color);
   transition: color 100ms ease-out;
 }
 
-.sidebarOption.active {
+.sideleft.active {
   color: var(--twitter-color);
 }
 
-.sidebar__tweet {
+.side__tweet {
   width: 100%;
   background-color: var(--twitter-color);
   border: none;
@@ -57,10 +57,9 @@ body {
   padding: 0 10px;
 }
 
-.sidebar {
+.side {
   border-right: 1px solid var(--twitter-background);
   flex: 0.2;
-
   min-width: 250px;
   margin-top: 20px;
   padding-left: 20px;
@@ -306,6 +305,40 @@ a {
 	padding-block: 1rem;
 }
 
+/* Right side */
+.sideright{
+  flex: 0.3; 
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.sideright input{
+  background-color: var(--twitter-background-color);
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.sr_search-icon{
+  color: gray;
+}
+.right{
+  float: right;
+}
+.sideright_container{
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+.sideright_container a{
+  color: #50b7f5;
+  font-weight: bold;
+}
+.trend{
+  color: gray;
+  font-size: small;
+}
 
 
 

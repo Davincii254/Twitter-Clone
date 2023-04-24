@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Twitter Clone - Final</title>
+    <title>Twitter Clone</title>
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link
@@ -15,55 +15,58 @@
     />
   </head>
   <body>
-    <!-- sidebar starts -->
-    <div class="sidebar">
+    <!-- side starts -->
+    <div class="side">
+    <!-- Twitter icon -->
       <i class="fab fa-twitter"></i>
-      <div class="sidebarOption active">
+      
+      <div class="sideleft active">
         <span class="material-icons"> home </span>
         <h2>Home</h2>
       </div>
 
-      <div class="sidebarOption">
+      <div class="sideleft">
         <span class="material-icons"> search </span>
         <h2>Explore</h2>
       </div>
 
-      <div class="sidebarOption">
+      <div class="sideleft">
         <span class="material-icons"> notifications_none </span>
         <h2>Notifications</h2>
       </div>
 
-      <div class="sidebarOption">
+      <div class="sideleft">
         <span class="material-icons"> mail_outline </span>
         <h2>Messages</h2>
       </div>
 
-      <div class="sidebarOption">
+      <div class="sideleft">
         <span class="material-icons"> bookmark_border </span>
         <h2>Bookmarks</h2>
       </div>
 
-      <div class="sidebarOption">
+      <div class="sideleft">
         <span class="material-icons"> list_alt </span>
         <h2>Lists</h2>
       </div>
 
-      <div class="sidebarOption">
-        <span class="material-icons"><a href="p.html"></a> perm_identity </span>
+      <div class="sideleft">
+        <span class="material-icons"> perm_identity </span>
         <h2>Profile</h2>
       </div>
 
-      <div class="sidebarOption">
+      <div class="sideleft">
         <span class="material-icons"> more_horiz </span>
         <h2>More</h2>
       </div>
-      <button class="sidebar__tweet">Tweet</button>
+      <button class="side__tweet">Tweet</button>
     </div>
-    <!-- sidebar ends -->
+    <!-- side ends -->
 
     <!-- feed starts -->
 
     <div class="feed">
+    
     <div class="feed_header">
         <h2> Username</h2>
         <p> 0 tweets</p>
@@ -139,6 +142,59 @@
                     <div class="active"></div>
                 </ul>
         </nav>
-   
+     </div>  
+    </div>  
+ <!--End of navbar  -->
+<!-- Right side -->
+
+      <div class="sideright">
+          <span class="material-icons sr_search-icon">search</span>
+          <input type="text" placeholder="Search Twitter">
+
+      <div class="sideright_container">
+        <h2>You might like</h2>
+        <br>
+        <blockquote class="twitter-tweet">
+        <p><b>Citizen TV Kenya </b></p>
+        <span class="right"><button>Follow</button></span>
+        <p class="trend">@citizentvkenya</p>
+        <br>
+        <p><b>Omwamba</b></p> 
+        <span class="right"><button>Follow</button></span>
+        <p class="trend">OmwambaKE</p>
+        <br>
+        <p><b>Rigathi Gachagua</b></p>
+        <span class="right"><button> Follow </button></span>
+        <p class="trend">@dpgachagua</p>
+        <br>
+        <a href="https://twitter.com/i/connect_people?user_id=1626581155771453442">Show more</a>
+        
+    </div>
+      <div class="sideright_container">
+          <h2>Trends for you</h2>
+          <br>
+          <blockquote class="twitter-tweet">
+          <p class="trend">Trending in Kenya</p>
+          <span class="right">...</span>
+          <p><b>Boutross</b></p>
+          <br>
+          <p class="trend">Trending</p>
+          <p><b>Arsenal</b></p>
+          <span class="right">...</span>
+          <p class="trend">598k Tweets</p>
+          <br>
+          <p class="trend">Trending in Kenya</p>
+          <p><b>Rigathi Gachagua</b></p>
+          <span class="right">...</span>
+          <p class="trend">Trending with #dpgachaguaspeaks</p>
+          <br>
+          <p class="trend">Trending in Kenya</p>
+          <p><b>Dj Fatxo</b></p>
+          <br>
+          <a href="https://twitter.com/i/trends">Show more</a>
+      </div>
+      
+
+  
 </body>
 </html>
